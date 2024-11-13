@@ -1,5 +1,4 @@
-import { Stack } from "../../components";
-import ButtonLink from "../../components/ButtonLink";
+import { ButtonLink, Stack } from "../../components";
 import styles from "./About.module.scss";
 
 export const About = () => {
