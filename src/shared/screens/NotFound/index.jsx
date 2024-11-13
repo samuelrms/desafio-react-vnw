@@ -1,5 +1,4 @@
-import { Stack } from "../../components";
-import ButtonLink from "../../components/ButtonLink";
+import { ButtonLink, Stack } from "../../components";
 import styles from "./NotFound.module.scss";
 
 export const NotFound = () => {
