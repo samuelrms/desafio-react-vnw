@@ -11,14 +11,14 @@ import styles from "./ButtonLink.module.scss";
  * @param {React.Node} children - Conteúdo do botão/link.
  * @param {object} props - Outras propriedades adicionais para o botão/link.
  */
-const ButtonLink = ({
+export const ButtonLink = ({
   to,
   type = "button",
   className = "",
   children,
   ...props
 }) => {
-  const combinedClassName = `${styles.buttonLink} ${className}`;
+  const combinedClassName = className ? styles.buttonLink : className;
 
   return to ? (
     <Link to={to} className={combinedClassName} {...props}>
@@ -37,5 +37,3 @@ ButtonLink.propTypes = {
   className: PropTypes.string,
   children: PropTypes.node.isRequired,
 };
-
-export default ButtonLink;
