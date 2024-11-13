@@ -1,0 +1,33 @@
+.container {
+  padding: 0;
+}
+
+.footer {
+  background: #005695;
+  padding: 2.875rem;
+  display: flex;
+  justify-content: space-between;
+
+  p {
+    color: #fff;
+    font-size: 1rem;
+  }
+
+  .socialMedia {
+    display: flex;
+    gap: 0.5rem;
+  }
+}
+
+.copy {
+  padding: 1.625rem;
+  background: #232020;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    color: #fff;
+    font-size: 1rem;
+  }
+}
