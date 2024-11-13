@@ -1,0 +1,41 @@
+.searchContainer {
+  display: flex;
+  align-items: center;
+  gap: 0; /* Sem espaço entre o input e o botão */
+  border: 2px solid #fff; /* Ajuste a cor conforme necessário */
+  border-radius: 20px;
+  overflow: hidden;
+  max-width: 300px;
+  width: 100%;
+  background-color: transparent; /* Ajuste a cor conforme necessário */
+}
+
+.searchInput {
+  flex: 1;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background-color: transparent; /* Remover fundo adicional */
+  color: #fff; /* Ajuste a cor do texto conforme necessário */
+
+  &::placeholder {
+    color: #fff; /* Cor do placeholder em branco */
+  }
+}
+
+.searchButton {
+  background-color: transparent;
+  border: none;
+  color: #007bff; /* Ajuste a cor conforme necessário */
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    color: #0056b3; /* Cor ao passar o mouse */
+  }
+}
