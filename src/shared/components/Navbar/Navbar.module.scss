@@ -1,0 +1,36 @@
+.container {
+  background: linear-gradient(90deg, #001b2f 0%, #005695 100%);
+  padding: 1.5rem 1rem;
+  gap: 1rem;
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
+
+  h1 {
+    color: #fff;
+    font-size: 1.875rem;
+  }
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 2.75rem;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.25rem;
+    transition: color 0.3s;
+
+    &:hover {
+      color: #f7f7f7;
+    }
+  }
+}
