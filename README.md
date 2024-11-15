@@ -234,45 +234,65 @@ export const Home = () => {
 Abaixo está a estrutura do projeto:
 
     .
-    ╠══ pnpm-lock.yaml
-    ╠══ LICENSE
+    ╠══ package.json
     ╠══ vite.config.js
     ╠══ .gitignore
-    ╠══ eslint.config.js
-    ╠══ package.json
-    ╠══ src/
-    ║    ╠══ index.css
-    ║    ╠══ routes/
-    ║    ║    ╚══ routes.jsx
-    ║    ╠══ main.jsx
-    ║    ╠══ App.css
-    ║    ╠══ assets/
-    ║    ║    ╠══ react.svg
-    ║    ║    ╚══ styles
-    ║    ║         ╚══ main.scss
-    ║    ╠══ App.jsx
-    ║    ╚══ shared
-    ║         ╠══ screens/
-    ║         ║    ╠══ NotFound/
-    ║         ║    ║    ╠══ index.jsx
-    ║         ║    ║    ╚══ NotFound.module.scss
-    ║         ║    ╠══ About/
-    ║         ║    ║    ╠══ About.module.scss
-    ║         ║    ║    ╚══ index.jsx
-    ║         ║    ╠══ index.js
-    ║         ║    ╚══ Home
-    ║         ║         ╠══ Home.module.scss
-    ║         ║         ╚══ index.jsx
-    ║         ╚══ components
-    ║              ╠══ ButtonLink/
-    ║              ║    ╠══ ButtonLink.module.scss
-    ║              ║    ╚══ index.jsx
-    ║              ╠══ index.js
-    ║              ╚══ Stack
-    ║                   ╚══ index.jsx
-    ╠══ README.md
     ╠══ public/
     ║    ╚══ vite.svg
+    ╠══ README.md
+    ╠══ src/
+    ║    ╠══ main.jsx
+    ║    ╠══ shared/
+    ║    ║    ╠══ components/
+    ║    ║    ║    ╠══ Search/
+    ║    ║    ║    ║    ╠══ SearchBar.module.scss
+    ║    ║    ║    ║    ╚══ index.jsx
+    ║    ║    ║    ╠══ Stack/
+    ║    ║    ║    ║    ╚══ index.jsx
+    ║    ║    ║    ╠══ Text/
+    ║    ║    ║    ║    ╚══ index.jsx
+    ║    ║    ║    ╠══ Footer/
+    ║    ║    ║    ║    ╠══ Footer.module.scss
+    ║    ║    ║    ║    ╚══ index.jsx
+    ║    ║    ║    ╠══ ButtonLink/
+    ║    ║    ║    ║    ╠══ index.jsx
+    ║    ║    ║    ║    ╚══ ButtonLink.module.scss
+    ║    ║    ║    ╠══ Navbar/
+    ║    ║    ║    ║    ╠══ index.jsx
+    ║    ║    ║    ║    ╚══ Navbar.module.scss
+    ║    ║    ║    ╚══ index.js
+    ║    ║    ╠══ layout/
+    ║    ║    ║    ╚══ index.jsx
+    ║    ║    ╚══ screens
+    ║    ║    ║    ╠══ Home/
+    ║    ║    ║    ║    ╠══ index.jsx
+    ║    ║    ║    ║    ╚══ Home.module.scss
+    ║    ║    ║    ╠══ About/
+    ║    ║    ║    ║    ╠══ index.jsx
+    ║    ║    ║    ║    ╚══ About.module.scss
+    ║    ║    ║    ╠══ index.js
+    ║    ║    ║    ╚══ NotFound
+    ║    ║    ║    ║    ╠══ NotFound.module.scss
+    ║    ║    ║    ║    ╚══ index.jsx
+    ║    ╠══ App.jsx
+    ║    ╠══ routes/
+    ║    ║    ╚══ routes.jsx
+    ║    ╚══ assets
+    ║    ║    ╠══ img/
+    ║    ║    ║    ╠══ youtube.png
+    ║    ║    ║    ╠══ linkedin.png
+    ║    ║    ║    ╠══ facebook.png
+    ║    ║    ║    ╠══ logo.png
+    ║    ║    ║    ╠══ instagram.png
+    ║    ║    ║    ╚══ twitter.png
+    ║    ║    ╠══ styles/
+    ║    ║    ║    ╚══ main.scss
+    ║    ║    ╚══ icons
+    ║    ║    ║    ╠══ icon.svg
+    ║    ║    ║    ╚══ search.jsx
+    ╠══ eslint.config.js
+    ╠══ pnpm-lock.yaml
+    ╠══ LICENSE
     ╚══ index.html
 
 ## Exportações de Componentes e Telas
